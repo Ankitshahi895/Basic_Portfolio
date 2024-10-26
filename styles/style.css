@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #c5c8cc;
+}
+
+header {
+  width: 100%;
+  background-color: #3e2121;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #ffcfcf;
+  text-decoration: none;
+}
+
+.hero,
+.about,
+.projects,
+.contact {
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  background-color: #007acc;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #005f99;
+}
+
+button {
+  background-color: #007acc;
+  color: white;
+  cursor: pointer;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+h1,
+h2,
+h3 {
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+p {
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  margin: 1rem auto;
+  max-width: 800px;
+  text-align: justify;
+}
